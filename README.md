@@ -32,3 +32,28 @@ Array
 ```
 ## explode(" ", $texto)
 - Faz o mesmo que o texto.splite(" ") do python
+## http e php arrays:
+```
+http://www.wa4e.com/code/arrays/get-01.php?x=2&y=4
+```
+### Isso gera:
+```
+Using print_r:
+
+    Array
+    {
+        [x] => 2
+        [y] => 4
+    }
+
+Using var_dump:
+
+    array(2) {
+        ['x']=>
+        string(1) "2"
+        ['y']=>
+        string(1) "4"
+    }
+```
+- O php recebe os valores no padrão ?x=1&y=2&z=3...
+- Esses valores estão em um vetor chamado $_GET
