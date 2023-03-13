@@ -1,4 +1,34 @@
 # study-of-php
 This is a php repository to study
 ## var_dump
-- var_dump mostra o tipo tamanho e valor de uma variável
+- var_dump mostra o tipo, tamanho e valor de uma variável.
+## print_r
+- print_r mostra o conteúdo de uma variável.
+### Entrada:
+```
+<?php
+    $variavel = array();
+    for($i = 0; $i<10; $i++){
+        $variavel[] = $i; 
+    }
+    print_r($variavel);
+?>
+```
+### Saída:
+```
+Array
+(
+    [0] => 0
+    [1] => 1
+    [2] => 2
+    [3] => 3
+    [4] => 4
+    [5] => 5
+    [6] => 6
+    [7] => 7
+    [8] => 8
+    [9] => 9
+)
+```
+## explode(" ", $texto)
+- Faz o mesmo que o texto.splite(" ") do python
