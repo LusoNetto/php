@@ -57,3 +57,20 @@ Using var_dump:
 ```
 - O php recebe os valores no padrão ?x=1&y=2&z=3...
 - Esses valores estão em um vetor chamado $_GET
+## Functions:
+### Existem 2 formas de mandar parâmetros para uma função:
+- Mandando como alias:
+```
+    function double($variavel) {
+        $variavel = $variavel * 2;
+        return $variavel
+    }
+```
+### Deste modo a variavel não é modificada, a função cria uma cópia da variável que foi passada e trabalha com ela no escopo da função.
+- Mandando como referencia
+```
+    function double(&$variavel) {
+        $variavel = $variavel * 2;
+    }
+```
+### Deste modo a variavel é modificada, a função recebe a referência do endereço da variável que foi passada e trabalha com ela modificando-a em escopo global.
