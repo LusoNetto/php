@@ -74,3 +74,5 @@ Using var_dump:
     }
 ```
 ### Deste modo a variavel é modificada, a função recebe a referência do endereço da variável que foi passada e trabalha com ela modificando-a em escopo global.
+## Variáveis Globais:
+### Quando eu uso global antes de uma variável eu indico que agora as mudanças feitas nela serão globais.
