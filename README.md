@@ -32,7 +32,7 @@ Array
 ```
 ## explode(" ", $texto)
 - Faz o mesmo que o texto.splite(" ") do python
-## http e php arrays:
+## http e php arrays(enviar valores por meio da url):
 ```
 http://www.wa4e.com/code/arrays/get-01.php?x=2&y=4
 ```
